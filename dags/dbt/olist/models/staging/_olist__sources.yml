@@ -1,0 +1,9 @@
+version: 2
+sources:
+  - name: bronze
+    database: OLIST_LAB
+    schema: BRONZE
+    tables:
+      - name: ORDERS
+      - name: ORDER_ITEMS
+      - name: CUSTOMERS
